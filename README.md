@@ -1,3 +1,18 @@
+# Santander Dev Week
+
+### API Rest com Java
+
+Simulando um extrato bancário onde temos correntista e movimentações em sua conta. Neste mesmo projeto do santander dev week vamos criar uma aplicação web e uma mobile para consumir essa API.
+
+Utilizamos Java, SpringBoot, PostgreSql
+
+Integramos com o swagger para testes.
+
+Subimos para o heroku para testes globais: https://bankline-api-diogenes.herokuapp.com/swagger-ui/index.html#/
+
+
+
+
 # Getting Started
 
 ### Reference Documentation
