@@ -1,6 +1,5 @@
 package com.dio.santander.bankline.api.service;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 import org.springframework.beans.factory.annotation.Autowired;

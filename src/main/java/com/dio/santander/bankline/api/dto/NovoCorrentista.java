@@ -4,6 +4,7 @@ public class NovoCorrentista {
 	
 	private String nome;
 	private String cpf;
+	
 	public String getNome() {
 		return nome;
 	}

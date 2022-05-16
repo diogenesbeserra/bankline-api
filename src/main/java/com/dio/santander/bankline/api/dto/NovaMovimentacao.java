@@ -1,9 +1,5 @@
 package com.dio.santander.bankline.api.dto;
 
-import javax.persistence.Column;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
-
 import com.dio.santander.bankline.api.model.MovimentacaoTipo;
 
 public class NovaMovimentacao {
@@ -11,6 +7,7 @@ public class NovaMovimentacao {
 	private Double valor;	
 	private MovimentacaoTipo tipo;		
 	private Integer idConta;
+	
 	public String getDescricao() {
 		return descricao;
 	}
@@ -35,7 +32,4 @@ public class NovaMovimentacao {
 	public void setIdConta(Integer idConta) {
 		this.idConta = idConta;
 	}
-	
-	
-
 }

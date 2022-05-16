@@ -1,6 +1,7 @@
 package com.dio.santander.bankline.api.controller;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -27,6 +28,10 @@ public class CorrentistaController {
 	@GetMapping
 	public List<Correntista> findAll() {
 		return repository.findAll();
+	}
+	
+	public Optional<Correntista> findByID(Integer id) {
+		return repository.findById(id);
 	}
 	
 	@PostMapping
