@@ -11,6 +11,31 @@ Integramos com o swagger para testes.
 Subimos para o heroku para testes globais: https://bankline-api-diogenes.herokuapp.com/swagger-ui/index.html#/
 
 
+### Criação do projeto
+
+Criação do projeto Spring boot pelo site spring initializr https://start.spring.io/ 
+* maven project
+* java
+* spring boot version 2.6.7
+* java version 8
+
+Import exist maven project
+
+### Estrutura
+
+* Padrão MVC
+* camada repository
+* regras de negócio do repository na camada service
+* camada DTO de interação do usuário com o service e o repository
+
+### Swagger UI
+
+https://www.javainuse.com/spring/boot_swagger3
+
+### Heroku
+
+https://bankline-api-diogenes.herokuapp.com/swagger-ui/index.html#
+
 
 
 # Getting Started
